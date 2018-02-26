@@ -1,0 +1,160 @@
+@CHARSET "ISO-8859-1";
+
+element {
+	cursor: default;
+}
+
+body {
+	font-family: Arial, Sans-serif;
+	font-size: 10pt;
+}
+
+#pageLevel {
+	width: 100%;
+	height: 100%;
+}
+
+#contentPage {
+	width: 100%; 
+	height: auto; 
+	margin: 0px;
+	padding: 0px;
+	/* border: 2px solid #D4CCBF; */
+	background-color: rgb(235, 235, 230);
+}
+
+.tabsContent {
+    background-color: rgb(235, 235, 230);
+	padding-left: 0px;
+	width: 100%;
+}
+
+
+/*---Headings---*/
+
+h2 {
+    font-family:"Trebuchet MS", Arial, sans-serif;
+    color: #60513A;
+	font-weight:bold;
+	 font-size: 13pt;
+  }
+
+h3 {
+    font-family:"Trebuchet MS", Arial, sans-serif;
+    color: #60513A;
+	font-weight:bold;
+	 font-size: 12pt;
+}
+
+/* Tabs Styling */
+
+ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+ul.tabs {
+	width: 100%;
+	overflow: hidden;
+}
+
+ul.tabs li {
+	display: block;
+	float: left;
+	color: #008198;
+	font-weight:bold;
+	font-size: 10pt;
+	padding: 10px;
+	margin-right: 5px;
+	border: 3px solid #D4CCBF;
+ 	border-bottom: none;
+	background-color: #80CED0;
+    cursor: pointer;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul.tabs li.active {
+	background-color: rgb(235, 235, 230);
+}
+
+ul.tabs li:hover {
+	background-color: #43b0ce;
+}
+
+.errorClass {
+	color : #C98400;
+	font-weight:bold;
+}
+
+/*
+@CHARSET "ISO-8859-1";
+
+element {
+	cursor: default;
+}
+
+body {
+	font-family: Arial, Sans-serif;
+	font-size: 10pt;
+}
+
+#contentPage {
+	max-width: 970px;
+	min-width: 970px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+	border: 1px solid #850600;
+}*/
+
+
+/*---Headings---*/
+/*
+h3 {
+    font-family:"Trebuchet MS", Arial, sans-serif;
+    color: #60513A;
+	font-weight:bold;
+	 font-size: 12pt;
+     line-height: 2.2em; 
+}*/
+
+/* Tabs Styling */
+/*
+ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+ul.tabs {
+	width: 100%;
+	overflow: hidden;
+}
+
+ul.tabs li {
+	list-style-type: none;
+	display: block;
+	float: left;
+	color: #fff;
+	padding: 10px;
+	margin-right: 5px;
+	border: 3px solid #D4CCBF;
+ 	border-bottom: none;
+	background-color: #908474;
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+	 cursor: pointer;
+}
+
+ul.tabs.li.active {
+	background-color: #43b0ce;
+}
+
+ul.tabs li:hover {
+	background-color: #43b0ce;
+}
+
+*/
+

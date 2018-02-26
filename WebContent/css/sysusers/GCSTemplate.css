@@ -1,0 +1,126 @@
+@CHARSET "ISO-8859-1";
+
+/* Masthead styles */
+
+div.masthead {background-color:#330000; margin-bottom:0.0px; margin-left:0.0px; margin-right:0.0px; margin-top:0.0px; padding:0.0px; width:950px; height: 67px; }
+div.masthead-gold {background-color:#DFB42C; margin-bottom:0.0px; margin-left:0.0px; margin-right:0.0px; margin-top:0px; padding:0.0px; width:950px; height: 2px;}
+div.logo {background:#330000 url("../images/ups_logo.jpg") no-repeat ; margin-left: 10px; margin-top: 6px; margin-bottom: 8px; width:43px; height: 53px; z-index: 0; position: absolute; }
+div.masthead-text {background:#003436; margin-left: 160px; margin-top: 0px; margin-bottom: 2px; z-index: 1; position: absolute; height: 67px; width: 790px;}
+p.title {font-family: Trebuchet MS,Arial; font-weight: bold; font-size: 14pt; color:#ffffff; margin-left: 20 px; margin-top: 5px; padding-left: 20px; padding-top: 0px;}
+
+
+/* font styles */
+
+head,body {font-family:Arial, sans-serif; font-size: 10pt; line-height: 1.2em; color: #333000;}
+div.content {outline: black solid thin; margin-top:2px; margin-left:2px; margin-right:0px; margin-bottom:2px; padding:0px; width:948px; height:500px;}
+h1,h2,h3,h4,h,h6 {line-height: 2.2em; font-family:Trebuchet MS, Arial, sans-serif; color: #60513A; font-weight:bold;}
+h1 {font-size:16pt; color: #330000;}
+h2 {font-size: 13pt; color: #330000;}
+h3 {font-size: 12pt;}
+h4 {font-size: 11pt;}
+h5 {font-size: 10pt;}
+h6 {font-size: 9pt;}
+
+/* table.data-table {padding: 0px; margin:10px 10px 10px 10px; width:930px; border:1; border-style: solid; border-color:#000000; border-collapse: separate; border-spacing: 1px;}
+table.search-table {padding: 0px; margin:10px 10px 10px 10px; width:930px; border:1; border-style: solid; border-color:#000000; border-collapse: separate; border-spacing: 1px;}
+
+table.data-table thead,tbody,tr,td,th {font-family:Arial, sans-serif; font-size: 10pt; line-height: 1.2em; color: #333000;}
+table.data-table td {border-top: 1px; border-bottom:0px; border-left:1px; border-right:1px; border-style: solid; border-color: #000000; text-align: left; height: 25px; vertical-align: middle;}
+table.data-table th {border-top: 1px; border-bottom:1px; border-left:1px; border-right:1px; border-style: solid; border-color: #000000; text-align: center; height: 25px;vertical-align: middle;}
+
+table.search-table thead,tbody,tr,td,th {font-family:Arial, sans-serif; font-size: 10pt; line-height: 1.2em; color: #333000;}
+table.search-table td {border-top: 1px; border-bottom:0px; border-left:1px; border-right:1px; border-style: solid; border-color: #000000; text-align: left; height: 25px; vertical-align: middle;}
+table.search-table th {border-top: 1px; border-bottom:1px; border-left:1px; border-right:1px; border-style: solid; border-color: #000000; text-align: center; height: 25px;vertical-align: middle;}
+
+
+tr.onEdit {background-color:#FFD124;}
+tr.onDelete {background-color:#F31A12;}
+tr.onCreate {background-color:#599117;}
+
+td.onEdit {background-color:#FFD124;}
+td.onDelete {background-color:#F31A12;}
+td.onCreate {background-color:#599117;}
+
+.bold-errorLabel {color: #850600#F31A12; font-weight: bold;}
+.errorLabel {color: #850600#F31A12; font-weight: normal;}
+
+
+td.ddCell {text-align: center; vertical-align: middle; padding-left: 30px;}
+td.cbCell {text-align: center; vertical-align: middle; padding-left: 30px;}
+td.tbCell {text-align: center; vertical-align: middle; padding-left: 30px;}
+td.btnCell {text-align: center; vertical-align: middle; padding-left: 30px;}
+
+td select.ddBox {width: 200px; background-color: #ffffff; border:1; text-align: left; vertical-align: top;}
+td input.chkBox {background-color: #ffffff; border:1; border-style: solid; border-color:#000000; text-align: left; vertical-align: middle; }
+td input.txtBox {width: 200px; background-color: #ffffff; border:1; text-align: left; border-style: solid; border-color:#000000; vertical-align: middle;}
+td input.btn {width: 100px; border:1; vertical-align: middle; text-align:center; color: #000000; font-weight: bold;}
+ */
+div.footer {background-color:#D4CCBF; top:715px; text-align:center; width:950px;}
+div.footer p {font-family:Verdana; font-size:11; text-transform:none; color:#ffffff; line-height:1.25;} 
+
+
+ul.topnav {
+	list-style: none;
+	padding: 0 0 0 15px;	
+	margin: 0;
+	float: left;
+	width: 775px;
+	background: #003436;
+	height:18px;
+	/* background: url("../topnav_b.gif") repeat-x; */
+}
+ul.topnav li {
+	float: left;
+	margin: 0;	
+	padding: 0 5px 0 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+	}
+ul.topnav li a{
+	padding: 0px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+/* ul.topnav li a:hover{
+	background: url("../topnav_hover.gif") no-repeat center top;
+} */
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 10px;
+	height: 35px;
+	float: right;
+	background: url("../images/subnav_b.gif") no-repeat center top;
+}
+ul.topnav li span.subhover {background-position: center top; cursor: pointer;} /*--Hover effect for trigger--*/
+
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0; top: 20px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 200px;
+	border: 1px solid #111;
+}
+ul.topnav li ul.subnav li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 200px;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 190px;
+	background: #003436;
+	
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background: #222 ; 
+}
+
+.alignRight { text-align: right; }
+.alignLeft { text-align: left; }
+.alignCenter { text-align: center; }
